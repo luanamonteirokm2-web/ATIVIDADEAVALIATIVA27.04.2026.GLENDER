@@ -16,7 +16,7 @@ public class ATIVIDAVALIATIVA27042026GLENDER {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
  Scanner sc = new Scanner(System.in);
 
         int[][] sala = new int[6][8];
@@ -31,7 +31,7 @@ public class ATIVIDAVALIATIVA27042026GLENDER {
             System.out.print("Escolha: ");
             opcao = sc.nextInt();
 
-            // RESERVAR
+      
             if (opcao == 1) {
 
                 System.out.print("Fileira (1 a 6): ");
@@ -48,7 +48,6 @@ public class ATIVIDAVALIATIVA27042026GLENDER {
                 }
             }
 
-            // CANCELAR
             else if (opcao == 2) {
 
                 System.out.print("Fileira (1 a 6): ");
@@ -65,7 +64,7 @@ public class ATIVIDAVALIATIVA27042026GLENDER {
                 }
             }
 
-            // MAPA DA SALA + FILEIRAS OCUPADO E LIVRES
+  
             else if (opcao == 3) {
 
                 System.out.println("\nMapa da sala:");
@@ -89,7 +88,7 @@ public class ATIVIDAVALIATIVA27042026GLENDER {
                     System.out.println();
                 }
 
-                System.out.println("\n===== ESTATISTICAS =====");
+                System.out.println("\n ESTATISTICAS ");
                 System.out.println("Assentos ocupados: " + ocupados);
                 System.out.println("Assentos livres: " + livres);
             }
